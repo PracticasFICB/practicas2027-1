@@ -89,25 +89,67 @@
 
             <!-- Paso 3 -->
             <div id="step-3" class="flow-card bg-white rounded-2xl shadow-lg p-6 md:p-8 w-full mb-4">
-                <div class="flex flex-col md:flex-row items-center gap-6">
-                    <div class="step-icon text-[#5A773F]">📝</div>
-                    <div>
-                        <h2 class="text-2xl font-bold text-[#4C6134] mb-2">Paso 3: Validación y Aprobación de la Oferta</h2>
-                        <p class="text-gray-600 mb-3 italic">Asegura la validez de tu plaza antes de firmar cualquier compromiso.</p>
+                <div class="flex flex-col md:flex-row items-start gap-6">
+                    <div class="step-icon text-[#5A773F] mt-2">💻</div>
+                    <div class="w-full">
+                        <h2 class="text-2xl font-bold text-[#4C6134] mb-2">Paso 3: Publicación y Postulación en el Portal</h2>
+                        <p class="text-gray-600 mb-4 italic">Todas las ofertas deben tramitarse obligatoriamente a través del portal oficial (Coally).</p>
                         
-                        <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-300 mb-4">
-                            <h3 class="font-semibold text-yellow-800">Aprobación de la Oferta (Trámite obligatorio)</h3>
-                            <p class="text-gray-700 mt-1">
-                                Si gestionas tu práctica de manera independiente (por fuera de la bolsa de empleo institucional), es obligatorio que la reportes a Progresa <strong>antes de firmar cualquier contrato o convenio</strong>.
-                            </p>
-                            <p class="text-gray-700 mt-2">
-                                Envía los detalles de tu oferta al correo electrónico: <a href="mailto:practicasprogresa@ucentral.edu.co" class="font-bold text-[#6B8B4D] hover:underline">practicasprogresa@ucentral.edu.co</a> para que el equipo realice la verificación institucional y revisión jurídica correspondiente.
+                        <div class="bg-[#F0F4ED] border-l-4 border-[#5A773F] p-4 rounded-lg mb-5 flex flex-col sm:flex-row items-center justify-between gap-4">
+                            <div>
+                                <p class="text-[#4C6134] font-semibold mb-1">Acceso al Portal de Empleabilidad UCentral:</p>
+                                <p class="text-gray-600 text-sm">Plataforma exclusiva para el registro de empresas y estudiantes.</p>
+                            </div>
+                            <a href="https://www.coallytalent.com/ucentral/auth/login" target="_blank" rel="noopener noreferrer" class="inline-block bg-[#5A773F] text-white font-bold py-2.5 px-5 rounded-lg hover:bg-[#4C6134] transition shadow-md whitespace-nowrap">
+                                Ingresar a Coally
+                            </a>
+                        </div>
+
+                        <!-- Nuevo bloque de Autogestión -->
+                        <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-lg mb-5">
+                            <h3 class="font-bold text-blue-800 text-sm mb-1">📢 ¡Tu rol es clave! (Autogestión)</h3>
+                            <p class="text-blue-900 text-sm leading-relaxed">
+                                Es <strong>tu responsabilidad</strong> comunicarte con la empresa para solicitarles que se registren y publiquen la oferta en el portal. <br>
+                                <strong>¿Ya te encuentras trabajando en la empresa?</strong> ¡También debes realizar este paso! Es <strong>obligatorio</strong> para todos, ya que con la información de esta oferta publicada, el programa académico evaluará y decidirá si aprueba o no tus prácticas.
                             </p>
                         </div>
 
-                        <p class="text-gray-700">
-                            <strong class="text-[#4C6134]">Importante:</strong> El aval explícito de tu programa académico es un requisito indispensable; sin esta aprobación no se autorizará el inicio de la práctica.
-                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5">
+                            <!-- Rol Empresa -->
+                            <div class="bg-white p-4 rounded-xl border border-gray-200 shadow-sm relative overflow-hidden">
+                                <div class="absolute top-0 left-0 w-1 h-full bg-[#6B8B4D]"></div>
+                                <h3 class="font-bold text-[#4C6134] mb-2 flex items-center gap-2">
+                                    🏢 1. La Empresa
+                                </h3>
+                                <p class="text-gray-700 text-sm mb-3 leading-relaxed">
+                                    Debe autenticarse en el portal (o registrarse si es nueva) y <strong>publicar formalmente la oferta</strong> de práctica.
+                                </p>
+                                <p class="text-red-600 text-xs font-bold bg-red-50 p-2 rounded border border-red-100">
+                                    ⚠️ Sin la oferta publicada en el portal, NO se aprobará la práctica.
+                                </p>
+                            </div>
+                            
+                            <!-- Rol Estudiante -->
+                            <div class="bg-white p-4 rounded-xl border border-gray-200 shadow-sm relative overflow-hidden">
+                                <div class="absolute top-0 left-0 w-1 h-full bg-[#5A773F]"></div>
+                                <h3 class="font-bold text-[#4C6134] mb-2 flex items-center gap-2">
+                                    🎓 2. El Estudiante
+                                </h3>
+                                <p class="text-gray-700 text-sm leading-relaxed">
+                                    Una vez que tu empresa haya publicado la oferta en Coally, debes ingresar con tu usuario, buscar la vacante y <strong>postularte a ella</strong> para enlazar el proceso.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="bg-yellow-50 p-4 rounded-lg border border-yellow-300 flex items-start gap-3">
+                            <span class="text-xl">📩</span>
+                            <div>
+                                <h3 class="font-semibold text-yellow-800 text-sm mb-1">¿Dudas o inconvenientes con el registro en Coally?</h3>
+                                <p class="text-gray-700 text-sm leading-relaxed">
+                                    Si tú o la empresa presentan algún problema técnico o duda sobre la oferta, comuníquense directamente a: <a href="mailto:practicasprogresa@ucentral.edu.co" class="font-bold text-[#6B8B4D] hover:underline">practicasprogresa@ucentral.edu.co</a>
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
